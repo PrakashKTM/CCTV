@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import './Enquiry.css'
 import jsondatas from '../assets/enquiry.json'
 const Enquiry = () => {
     let [show, setshow] = useState(false)
