@@ -1,0 +1,72 @@
+.mynavbar ul li {
+    list-style-type: none;
+}
+
+.mynavbar a {
+    padding: 0 30px;
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.mynavbar a.active {
+    transition: 1s;
+    color: rgb(12, 16, 12);
+}
+
+.mynavbar a:hover {
+    transition: 0.9s;
+    color: red;
+}
+
+@media only screen and (max-width:320px) {
+    .menubar {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width:320px) {
+    .menubar {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width:576px) {
+    .mynavbar a {
+        padding: 0 8px;
+        margin: 0 5px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .mynavbar a {
+        padding: 0 10px;
+        margin: 0 10px;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .mynavbar a {
+        padding: 0 15px;
+        margin: 0 15px;
+        font-weight: 800;
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .mynavbar a {
+        padding: 0 30px;
+        margin: 0 20px;
+        font-weight: 900;
+    }
+}

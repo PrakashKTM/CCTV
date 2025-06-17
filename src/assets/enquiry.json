@@ -1,0 +1,46 @@
+[
+    {
+        "enquiryid":1,
+        "cname":"S.Kumar",
+        "ph":1234567890,
+        "address":"D.No: 1,XXX,YYY,ZZZ,TN",
+        "SR":"Camera",
+        "fault/issue":"No diplay",
+        "Service type":"repair",
+        "edate":"10/02/2025",
+        "progress":["Enquiry Registerd","Quotion Created"]
+    },
+        {
+        "enquiryid":2,
+        "cname":"M.S.Raja",
+        "ph":1234567890,
+        "address":"D.No: 1,XXX,YYY,ZZZ,TN",
+        "SR":"monitor",
+        "fault/issue":"damage",
+        "Service type":"repair",
+        "edate":"10/09/2025",
+        "progress":["Enquiry Registerd","Quotion Created","Technician Assigned"]
+    },
+        {
+        "enquiryid":3,
+        "cname":"R.velan",
+        "ph":1234567890,
+        "address":"D.No: 1,XXX,YYY,ZZZ,TN",
+        "SR":"Camera",
+        "fault/issue":"damage",
+        "Service type":"New",
+        "edate":"10/02/2025",
+        "progress":["Enquiry Registerd","Quotion Created","Quotion Follow Up"]
+    },
+        {
+        "enquiryid":4,
+        "cname":"S.Murugan",
+        "ph":1234567890,
+        "address":"D.No: 1,XXX,YYY,ZZZ,TN",
+        "SR":"monitor",
+        "fault/issue":"damage",
+        "Service type":"New",
+        "edate":"10/02/2025",
+        "progress":["Enquiry Registerd","Quotion Created","Quotion Accepted"]
+    }
+]
